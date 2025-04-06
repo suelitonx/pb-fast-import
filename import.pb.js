@@ -48,7 +48,6 @@ $app.rootCmd.addCommand(new Command({
                     const config = {
                         dynamicTyping: true,
                         header: false,
-                        delimiter: ";",
                     }
                     const r1 = papa.parse(file, config)
     
